@@ -1,3 +1,14 @@
 Day 1- 06 April
 ======================
 https://github.com/wingify/rest-api-testing-framework
+
+Resolve gradle dependencies-need to configure gradle version and compactible java version in settings to run 
+
+
+unable to run gradle tests
+./gradlew :test --tests "PathOfClass"
+gradle test --tests '*SomeTest.someSpecificFeature'
+gradle test --tests '*SomeSpecificTest'
+gradle test --tests "a.b.c.MyTestFile.mySingleTest"
+
+gradle is like maven ,another build tool 
