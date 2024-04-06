@@ -1,7 +1,7 @@
 Day 1- 06 April
 ======================
-https://github.com/wingify/rest-api-testing-framework
-
+1)https://github.com/wingify/rest-api-testing-framework
+from this project ,can understand framework folder structure
 Resolve gradle dependencies-need to configure gradle version and compactible java version in settings to run 
 
 
@@ -10,5 +10,19 @@ unable to run gradle tests
 gradle test --tests '*SomeTest.someSpecificFeature'
 gradle test --tests '*SomeSpecificTest'
 gradle test --tests "a.b.c.MyTestFile.mySingleTest"
+Windows users: gradlew clean build runTests or gradlew clean build test
+.\gradlew clean build test   ---->worked for me
 
 gradle is like maven ,another build tool 
+
+
+
+
+2) https://github.com/vinaykumarvvs/api-automation-tutorial
+
+clone and go through chapters under test to understand RESTAssured DSL ----->https://github.com/vinaykumarvvs/api-automation-tutorial/blob/master/src/test/java/Chapters/Chapter01/Chapter01.md
+for more go to --->https://github.com/rest-assured/rest-assured/wiki/usage
+
+the-builder-pattern-for-test-classes ------> 
+https://www.javacodegeeks.com/2012/12/using-builder-pattern-in-junit-tests.html
+https://blog.stackademic.com/builder-pattern-in-spring-boot-6ed7b0e57e1f
